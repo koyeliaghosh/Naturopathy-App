@@ -1,0 +1,72 @@
+import { Language } from './types';
+
+export const SUPPORTED_LANGUAGES: Language[] = ['English', 'Hindi', 'Bengali'];
+
+export const UI_LABELS: Record<Language, Record<string, string>> = {
+  English: {
+    title: 'Naturopathy Access',
+    subtitle: 'Affordable Holistic Healthcare for Everyone',
+    profileStep: 'Your Profile',
+    resultsStep: 'Consultation',
+    age: 'Age',
+    weight: 'Weight (kg)',
+    height: 'Height (cm)',
+    gender: 'Gender',
+    location: 'Current Location (City/Region)',
+    condition: 'Describe your symptoms or medical condition',
+    conditionPlaceholder: 'e.g., High blood pressure, joint pain, diabetes...',
+    submit: 'Get Affordable Remedies',
+    loading: 'Consulting Naturopathy Expert...',
+    bmi: 'Your BMI',
+    sources: 'Sourcing & Verification',
+    disclaimer: 'Disclaimer: This AI advice is for informational purposes only and does not replace professional medical advice.',
+    reset: 'New Consultation',
+    male: 'Male',
+    female: 'Female',
+    other: 'Other'
+  },
+  Hindi: {
+    title: 'प्राकृतिक चिकित्सा पहुंच',
+    subtitle: 'सभी के लिए किफायती समग्र स्वास्थ्य सेवा',
+    profileStep: 'आपकी प्रोफ़ाइल',
+    resultsStep: 'परामर्श',
+    age: 'आयु',
+    weight: 'वजन (किग्रा)',
+    height: 'ऊंचाई (सेमी)',
+    gender: 'लिंग',
+    location: 'वर्तमान स्थान (शहर/क्षेत्र)',
+    condition: 'अपने लक्षण या चिकित्सा स्थिति का वर्णन करें',
+    conditionPlaceholder: 'जैसे, उच्च रक्तचाप, जोड़ों का दर्द, मधुमेह...',
+    submit: 'किफायती उपचार प्राप्त करें',
+    loading: 'प्राकृतिक चिकित्सा विशेषज्ञ से परामर्श कर रहा है...',
+    bmi: 'आपका बीएमआई',
+    sources: 'स्रोत और सत्यापन',
+    disclaimer: 'अस्वीकरण: यह एआई सलाह केवल सूचनात्मक उद्देश्यों के लिए है और पेशेवर चिकित्सा सलाह की जगह नहीं लेती है।',
+    reset: 'नया परामर्श',
+    male: 'पुरुष',
+    female: 'महिला',
+    other: 'अन्य'
+  },
+  Bengali: {
+    title: 'প্রাকৃতিক চিকিৎসা অ্যাক্সেস',
+    subtitle: 'সবার জন্য সাশ্রয়ী মূল্যের সামগ্রিক স্বাস্থ্যসেবা',
+    profileStep: 'আপনার প্রোফাইল',
+    resultsStep: 'পরামর্শ',
+    age: 'বয়স',
+    weight: 'ওজন (কেজি)',
+    height: 'উচ্চতা (সেমি)',
+    gender: 'লিঙ্গ',
+    location: 'বর্তমান অবস্থান (শহর/অঞ্চল)',
+    condition: 'আপনার লক্ষণ বা চিকিৎসা অবস্থার বর্ণনা দিন',
+    conditionPlaceholder: 'যেমন, উচ্চ রক্তচাপ, গাঁটে ব্যথা, ডায়াবেটিস...',
+    submit: 'সাশ্রয়ী মূল্যের প্রতিকার পান',
+    loading: 'প্রাকৃতিক চিকিৎসা বিশেষজ্ঞের সাথে পরামর্শ করা হচ্ছে...',
+    bmi: 'আপনার বিএমআই',
+    sources: 'উত্স এবং যাচাইকরণ',
+    disclaimer: 'দাবিত্যাগ: এই এআই পরামর্শ শুধুমাত্র তথ্যের উদ্দেশ্যে এবং পেশাদার চিকিৎসা পরামর্শের বিকল্প নয়।',
+    reset: 'নতুন পরামর্শ',
+    male: 'পুরুষ',
+    female: 'মহিলা',
+    other: 'অন্যান্য'
+  }
+};
